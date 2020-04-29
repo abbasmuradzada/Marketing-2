@@ -1,0 +1,738 @@
+$containerw: 1282px; 
+$topsecmarginleft: 616.92px-366.84px-160.68px;
+$imgmargintop: 1848.29px-1826.84px;
+$mleft: 106px;
+$bluebutton: linear-gradient(to right,#1a129f, #6156f9);
+$iconleft: -8px;
+
+body{
+    margin: 0;
+    padding: 0;
+    // background-color: red;
+    overflow-x: hidden;
+
+}
+
+.header{
+    max-width: $containerw;
+    height: 786.37px;
+    margin: auto;
+    // background-color: red;
+    // margin-left: 6.61%;
+    position: relative;
+}
+
+.mazgi1{
+    position: absolute;
+    // left: 566.81px;
+    right: -160.68px;
+    top: -2px;
+}
+
+.ficon, .gicon, .ticon, .iicon{
+    position: absolute;
+    left: $iconleft;
+}
+
+.sonicon{
+    left: $iconleft+2px;
+}
+
+.ficon{
+    top: 414.6px;
+}
+
+.gicon{
+    top: 463.81px;
+}
+
+.ticon{
+    top: 519.7px;
+}
+
+.iicon{
+    top: 571px;
+}
+
+.sonicon{
+	width: 3px;
+	height: 29px;
+    background-image: linear-gradient(to right, #1a129f, #6156f9);
+    position: absolute;
+    top: 599px;
+}
+
+.mlogo{
+    position: absolute;
+    top: 20.9px;
+    left: 215px-160.68px;
+}
+
+.navb{
+	color: white;
+	font-size: 16px;
+	font-weight: 500;
+	font-family: Poppins-Medium, Poppins;
+    word-spacing: 29px;
+    position: absolute;
+    // left: 1001-215px-160.68px;
+    right: 247px-160.68;
+    top: 55px;
+}
+
+.mouse{
+    width: 80.8px;
+    height: 80.8px;
+    background: white;
+    border-radius: 50%;;
+    position: absolute;
+    top: 706.29px;
+    left: 599.32px;
+    box-shadow: (0px 1px 5px);
+}
+
+.mouse img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.social{
+    position: absolute;
+    top: 257px;
+    left: 213px-160.68px;
+    
+}
+
+.sm{
+    font-size: 50px;
+    font-family: Poppins-Regular, Poppins;
+    color: #42495b;
+    
+  }
+  
+  .fb{
+    font-size: 74px;
+    font-family: Poppins-Regular, Poppins;
+    font-weight: 700;
+    color: #42495b;
+    margin-top: -10px
+  }
+
+  .walm, .pbsma{
+    font-size: 16px;
+    font-family: Poppins-Light, Poppins;
+    color: #7a839e;
+  }
+
+  .palm{
+      position: absolute;
+      top: 416px;
+      left: 215px-160.68px;
+  }
+
+  .bton2{
+      width: 216px;
+      height: 49px;
+      background-image: $bluebutton;
+	    border-radius: 100px;
+	// margin-top: 33px;
+	    text-align: center;
+	    color: white;
+	/*position: absolute;*/
+	/*left: 50%;*/
+	/*transform: translateX(-50%);*/
+	    font-size: 16px;
+	    font-weight: 500;
+	    font-family: Poppins-Light, Poppins;
+        border: 1px solid #1000ff;
+        position: absolute;
+        top: 485px;
+        left: 216px-160.68px;
+
+  }
+
+.mazgi2{
+    position: absolute;
+    top: 140.14px;
+    right: -20.54px;
+} 
+
+.centerc{
+    width: $containerw;
+    height: 1216px;
+    // background-color: red;
+    margin: auto;
+    position: relative;
+}
+
+%sections{
+    width: 366.84px;
+    height: 410.16px;
+    border-radius: 36px;
+    // display: inline-block;
+    float: left;
+    background-color: white;
+    box-shadow: 0px 10px 20px;
+}
+
+.topsec1, .botsec1{
+    @extend %sections;
+    position: relative;
+}
+
+.topsec2 {
+    @extend %sections;
+    margin-left: $topsecmarginleft;
+}
+
+.topsec3, .botsec2, .botsec3{
+    @extend .topsec2;
+}
+
+.bottomsec{
+    // margin-top: 2348px-1828.84px-410.16px;
+    position: absolute;
+    top: 2348px-1828.84px;
+    margin-bottom: 2090px-675px-1130px;
+}
+
+.topsec1 img{
+    margin-top: $imgmargintop;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.topsec2, .topsec3, .botsec1{
+    @extend .topsec1;
+}
+
+
+.smm1{
+    color: #42495b;
+    font-size: 18px;
+    font-family: Poppins-SemiBold, Poppins;
+    font-weight: 600;
+}
+
+.smm{
+    position: absolute;
+    top: 1976px-1826.84px;
+    left: 191px-160.68px;
+}
+
+.pre1{
+    font-family: Lato-Regular, Lato;
+    font-size: 15px;
+    color: #42495b;
+}
+
+.pre{
+    position: absolute;
+    left: 30.3px;
+    top: 212.1px;
+}
+
+.weoffer{
+    width: $containerw;
+    margin: auto;
+    margin-bottom: 1826.84px-1664px-71px;
+    
+}
+
+.ourhey{
+    color: #7e76f9;
+    font-size: 25px;
+    font-family: Lato-Regular, Lato;
+    // margin-top: 134.52px;
+   }
+
+.our1{
+    // position: absolute;
+    margin-left: 196px-160.68px;
+}
+
+.offer  {
+    color: #42495b;
+    font-size: 50px;
+    font-family: Poppins-SemiBold, Poppins;
+    font-weight: 600;
+   }
+
+.offer1{
+    margin-left: 196px-160.68px;
+}
+
+.topprice{
+    margin: auto;
+    width: 100%;
+    height: 20px;
+    background-color: purple;
+    position: relative;
+    margin-top: 410.16px+410.16px+2090px-675px-1130px;
+}
+
+.pricelist{
+    width: 370px;
+    height: 463px;
+    border-radius: 26px;
+    // background-color: red;
+}
+
+
+
+.toppricing{
+	width: 100%;
+	height: 822px;
+	background-color: rgba(126, 118, 249, .15);
+    /*background-color opacity: 0.15;*/
+    // background-color: #7e76f9;
+    // opacity: 0.15;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 38px;
+
+}
+
+.threeprice{
+	width: 1260px;
+	margin: auto;
+	background-color: red;
+	margin-top: 60px;
+}
+
+.price1, .price2, .price3{
+	width: 370px;
+	height: 463px;
+	background-color: white;
+	border-radius: 26px;
+	float: left;
+	display: inline-block;
+}
+
+.price2, .price3{
+	margin-left: 75px;
+}
+
+.gold1{
+	text-align: center;
+	margin-top: 57px;
+	height: 43px;
+	font-size: 28px;
+	font-family: SegoeUI, Segoe UI;
+	color: #42495b;
+	/*background-color: red;*/
+}
+
+.lora1{
+	text-align: center;
+	margin-top: 63px;
+	height: 100px;
+	font-size: 16px;
+	font-family: Poppins-Light, Poppins;
+	font-weight: 300;
+	color: #7a839e;
+	/*background-color: red;*/
+}
+
+.dollar1{
+	font-size: 30px;
+	color: #1000ff;
+	font-family: Poppins-Light, Poppins;
+	font-weight: 600;
+	text-align: center;
+	margin-top: 12px;
+	height: 50px;
+}
+
+.sonbutton{
+    width: 93.49px;
+    height: 29.73px;
+    font-size: 12px;
+	font-weight: 500;
+	font-family: Poppins-Light, Poppins;
+    border: 1px solid #1000ff;
+    text-align: center;
+    color: white;
+    background-image: $bluebutton;
+    border-radius: 100px;
+    position: absolute;
+    right: 56px;
+    bottom: 27.3px;
+}
+
+.sonbutton div{
+    margin-top: 6px;
+}
+
+.bton{
+	width: 169px;
+	height: 51px;
+	background-image: $bluebutton;
+	border-radius: 100px;
+	margin: auto;
+	margin-top: 33px;
+	text-align: center;
+	color: white;
+	/*position: absolute;*/
+	/*left: 50%;*/
+	/*transform: translateX(-50%);*/
+	font-size: 16px;
+	font-weight: 500;
+	font-family: Poppins-Light, Poppins;
+	border: 1px solid #1000ff;
+}
+
+.bton1{
+	width: 169px;
+	height: 51px;
+	background-color: white;
+	border-radius: 100px;
+	margin: auto;
+	margin-top: 33px;
+	text-align: center;
+	border: 1px solid #1000ff;
+	/*position: absolute;*/
+	/*left: 50%;*/
+	/*transform: translateX(-50%);*/
+	font-size: 16px;
+	font-weight: 500;
+	font-family: Poppins-Light, Poppins;
+	color: #42495b;
+}
+
+.pricing{
+	font-family: SegoeUI, Segoe UI;
+	font-size: 20px;
+	color: #7e76f9;
+	margin: auto;
+	text-align: center;
+	height: 27px;
+	/*background-color: red;*/
+	/*margin-top: 38px;*/
+}
+
+.our{
+	color: #42495b;
+	font-family: Poppins-Light, Poppins;
+	font-size: 50px;
+	font-weight: 600;
+	text-align: center;
+	margin-top: 10px;
+	height: 71px;
+}
+
+
+.footer{
+	height: 1103px;
+	/*background-color: red;*/
+}
+
+.ayaq{
+	width: 627px;
+	height: 178px;
+	// background-color: red;
+	margin: auto;
+	margin-top: 136px;
+}
+
+.news{
+	font-size: 20px;
+	color: #7e76f9;
+	font-family: SegoeUI, Segoe UI;
+	text-align: center;
+	height: 27px;
+}
+
+.do{
+	/*margin: auto;*/
+	text-align: center;
+	color: #42495b;
+	font-size: 32px;
+	font-family: Poppins-Regular, Poppins;
+	margin-top: 10px;
+}
+
+.do2{
+	font-weight: 600;
+}
+
+.dropm{
+	width: 430px;
+	height:52px;
+	border:none;
+	background-color: #f6f7fb;
+	border-radius: 5%;
+	// padding-left: 30px; 
+	display: inline-block;
+	float: left;
+	// height: 45px;
+}
+
+.dropm, .value{
+	font-size: 12px;
+	color: rgba(153, 153, 153, 0.6);
+	font-family: Poppins-Regular, Poppins;
+}
+
+.subscribe{
+	display: inline-block;
+	float: left;
+	margin-top: 0px;
+	margin-left: 26px;
+}
+
+.last{
+	margin: auto;
+	margin-top: 37px;
+}
+
+.bio1, .bio3{
+    height: 616.39px;
+    width: 602.64px;
+    // background-color: red;
+    display: inline-block;
+    float: left;
+}
+
+.bio2{
+    height: 616.39px;
+    width: 84.26px;
+    // background-color: black;
+    display: inline-block;
+    float: left;
+}
+
+.topbio{
+    margin: auto;
+    margin-bottom: 134.52px;
+    margin-top: 88.72px;
+    height: 616.39px;
+    width: 602.64px*2+84.26px;
+    // background-color: red;
+}
+
+.biography{
+	height: 27px;
+	font-size: 20px;
+	color: #7e76f9;
+    font-family: SegoeUI, Segoe UI;
+    margin-top: 74.91px;
+}
+
+.who{
+	height: 71px;
+	font-size: 50px;
+	font-family: Poppins-SemiBold, Poppins;
+	font-weight: 600;
+	color: #42495b;
+	margin-top: 7px;
+}
+
+.lastlorem{
+	height: 240px;
+	font-size: 16px;
+	font-family: Poppins-SemiBold, Poppins;
+	color: #7a839e;
+	font-weight: 300;
+	margin-top: 14px;
+}
+
+.weare{
+    margin-left: 0px;
+    margin-top: 32px;
+}
+
+.topfooter{
+	width: 100%;
+	background-color: #1a129f;
+    margin-top: 250px;
+
+}
+
+.lowfooter{
+	height: 426px;
+	width: 1282px;
+	// background: #1a129f;
+	margin: auto;
+    position: relative;
+    // margin-top: 300px;
+}
+
+.logo{
+	font-family: SegoeUI, Segoe UI;
+	font-size: 50px;
+	color: #fff;
+	width: 111px;
+	height: 67px;
+	position: absolute;
+	left: 115.32px;
+	bottom: 249px;
+}
+
+.stay{
+	font-weight: 500;
+	font-size: 31px;
+	font-family: Poppins-Medium, Poppins;
+	color: white;
+    position: absolute;
+    bottom: 180.4px;
+    left: 59.32px;
+}
+
+.facelast{
+    position: absolute;
+    bottom: 139.4px;
+    left: 71.62px;
+}
+
+.glast{
+    position: absolute;
+    bottom: 139.6px;
+    left: 120.12px;
+}
+
+.twitlast{
+    position: absolute;
+    bottom: 138.6px;
+    left: 180.42px;
+}
+
+.instalast{
+    position: absolute;
+    bottom: 139.6px;
+    left: 235.32px;
+}
+
+.logo2{
+	position: absolute;
+	left: 431.32px;
+	/*bottom: 88px;*/
+}
+
+.qlinks{
+	font-family: Poppins-Medium, Poppins;
+	font-size: 20px;
+	color: white;
+	font-weight: 500;
+	width: 112px;
+	height: 28px;
+	bottom: 285px;
+	left: 431.32px;
+	position: absolute;
+}
+
+.lastlinks{
+	font-size: 16px;
+	font-family: Poppins-Medium, Poppins;
+	color: white;
+	bottom: 88px;
+	position: absolute;
+	left: 431.32px;
+
+}
+
+.lastlinks span{
+	position: absolute;
+}
+
+.hours{
+	font-family: Poppins-Medium, Poppins;
+	font-size: 20px;
+	color: white;
+	font-weight: 500;
+	position: absolute;
+	bottom: 285px;
+	right: 533.32px;
+}
+
+.monday{
+	height: 167px;
+	width: 198px;
+	color: white;
+	font-family: Poppins-Medium, Poppins;
+	font-size: 16px;
+	position: absolute;
+	bottom: 88px;
+	right: 394.32px;
+	/*background: red;*/
+}
+
+.monday span{
+	position: absolute;
+}
+
+.monday span div{
+	position: absolute;
+	right: 0%;
+	/*text-align: right;*/
+}
+
+.contact{
+	font-family: Poppins-Medium, Poppins;
+	font-weight: 500;
+	position: absolute;
+	color: white;
+	font-size: 20px;
+	width: 82px;
+	height: 28px;
+	position: absolute;
+	bottom: 285px;
+	right: 212.32px;
+}
+
+.info{
+	width: 128px;
+	font-size: 16px;
+	font-family: Poppins-Medium, Poppins;
+	color: white;
+	position: absolute;
+	bottom: 196px;
+	right: 143.32px;
+}
+
+.info span{
+	position: absolute;
+}
+
+.nyc{
+	font-size: 16px;
+	font-family: Poppins-Medium, Poppins;
+	color: white;
+	position: absolute;
+	bottom: 143px;
+	right: 171.32px;
+}
+
+.phone{
+    position: absolute;
+    bottom: 231.1px;
+    right: 278.42px;
+}
+
+.envelope{
+    position: absolute;
+    bottom: 199.6px;
+    right: 278.42px;
+}
+
+.maps{
+    position: absolute;
+    bottom: 142.7px;
+    right: 281.22px;
+  
+}
+
+.last1{
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -1283.46px;
+    top: 3290.66;
+}
+
+.ucnoqte{
+	position: absolute;
+	bottom: -120px;
+}

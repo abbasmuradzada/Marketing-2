@@ -1,0 +1,594 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; }
+
+.header {
+  max-width: 1282px;
+  height: 786.37px;
+  margin: auto;
+  position: relative; }
+
+.mazgi1 {
+  position: absolute;
+  right: -160.68px;
+  top: -2px; }
+
+.ficon, .gicon, .ticon, .iicon {
+  position: absolute;
+  left: -8px; }
+
+.sonicon {
+  left: -6px; }
+
+.ficon {
+  top: 414.6px; }
+
+.gicon {
+  top: 463.81px; }
+
+.ticon {
+  top: 519.7px; }
+
+.iicon {
+  top: 571px; }
+
+.sonicon {
+  width: 3px;
+  height: 29px;
+  background-image: linear-gradient(to right, #1a129f, #6156f9);
+  position: absolute;
+  top: 599px; }
+
+.mlogo {
+  position: absolute;
+  top: 20.9px;
+  left: 54.32px; }
+
+.navb {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Poppins-Medium, Poppins;
+  word-spacing: 29px;
+  position: absolute;
+  right: 86.32px;
+  top: 55px; }
+
+.mouse {
+  width: 80.8px;
+  height: 80.8px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 706.29px;
+  left: 599.32px;
+  box-shadow: 0px 1px 5px; }
+
+.mouse img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%); }
+
+.social {
+  position: absolute;
+  top: 257px;
+  left: 52.32px; }
+
+.sm {
+  font-size: 50px;
+  font-family: Poppins-Regular, Poppins;
+  color: #42495b; }
+
+.fb {
+  font-size: 74px;
+  font-family: Poppins-Regular, Poppins;
+  font-weight: 700;
+  color: #42495b;
+  margin-top: -10px; }
+
+.walm, .pbsma {
+  font-size: 16px;
+  font-family: Poppins-Light, Poppins;
+  color: #7a839e; }
+
+.palm {
+  position: absolute;
+  top: 416px;
+  left: 54.32px; }
+
+.bton2 {
+  width: 216px;
+  height: 49px;
+  background-image: linear-gradient(to right, #1a129f, #6156f9);
+  border-radius: 100px;
+  text-align: center;
+  color: white;
+  /*position: absolute;*/
+  /*left: 50%;*/
+  /*transform: translateX(-50%);*/
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Poppins-Light, Poppins;
+  border: 1px solid #1000ff;
+  position: absolute;
+  top: 485px;
+  left: 55.32px; }
+
+.mazgi2 {
+  position: absolute;
+  top: 140.14px;
+  right: -20.54px; }
+
+.centerc {
+  width: 1282px;
+  height: 1216px;
+  margin: auto;
+  position: relative; }
+
+.topsec1, .topsec2, .topsec3, .botsec2, .botsec3, .botsec1 {
+  width: 366.84px;
+  height: 410.16px;
+  border-radius: 36px;
+  float: left;
+  background-color: white;
+  box-shadow: 0px 10px 20px; }
+
+.topsec1, .topsec2, .topsec3, .botsec2, .botsec3, .botsec1, .botsec1 {
+  position: relative; }
+
+.topsec2, .topsec3, .botsec2, .botsec3 {
+  margin-left: 89.4px; }
+
+.bottomsec {
+  position: absolute;
+  top: 519.16px;
+  margin-bottom: 285px; }
+
+.topsec1 img, .topsec2 img, .topsec3 img, .botsec2 img, .botsec3 img, .botsec1 img {
+  margin-top: 21.45px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%); }
+
+.smm1 {
+  color: #42495b;
+  font-size: 18px;
+  font-family: Poppins-SemiBold, Poppins;
+  font-weight: 600; }
+
+.smm {
+  position: absolute;
+  top: 149.16px;
+  left: 30.32px; }
+
+.pre1 {
+  font-family: Lato-Regular, Lato;
+  font-size: 15px;
+  color: #42495b; }
+
+.pre {
+  position: absolute;
+  left: 30.3px;
+  top: 212.1px; }
+
+.weoffer {
+  width: 1282px;
+  margin: auto;
+  margin-bottom: 91.84px; }
+
+.ourhey {
+  color: #7e76f9;
+  font-size: 25px;
+  font-family: Lato-Regular, Lato; }
+
+.our1 {
+  margin-left: 35.32px; }
+
+.offer {
+  color: #42495b;
+  font-size: 50px;
+  font-family: Poppins-SemiBold, Poppins;
+  font-weight: 600; }
+
+.offer1 {
+  margin-left: 35.32px; }
+
+.topprice {
+  margin: auto;
+  width: 100%;
+  height: 20px;
+  background-color: purple;
+  position: relative;
+  margin-top: 1105.32px; }
+
+.pricelist {
+  width: 370px;
+  height: 463px;
+  border-radius: 26px; }
+
+.toppricing {
+  width: 100%;
+  height: 822px;
+  background-color: rgba(126, 118, 249, 0.15);
+  /*background-color opacity: 0.15;*/
+  margin: 0px;
+  padding: 0px;
+  padding-top: 38px; }
+
+.threeprice {
+  width: 1260px;
+  margin: auto;
+  background-color: red;
+  margin-top: 60px; }
+
+.price1, .price2, .price3 {
+  width: 370px;
+  height: 463px;
+  background-color: white;
+  border-radius: 26px;
+  float: left;
+  display: inline-block; }
+
+.price2, .price3 {
+  margin-left: 75px; }
+
+.gold1 {
+  text-align: center;
+  margin-top: 57px;
+  height: 43px;
+  font-size: 28px;
+  font-family: SegoeUI, Segoe UI;
+  color: #42495b;
+  /*background-color: red;*/ }
+
+.lora1 {
+  text-align: center;
+  margin-top: 63px;
+  height: 100px;
+  font-size: 16px;
+  font-family: Poppins-Light, Poppins;
+  font-weight: 300;
+  color: #7a839e;
+  /*background-color: red;*/ }
+
+.dollar1 {
+  font-size: 30px;
+  color: #1000ff;
+  font-family: Poppins-Light, Poppins;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 12px;
+  height: 50px; }
+
+.sonbutton {
+  width: 93.49px;
+  height: 29.73px;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: Poppins-Light, Poppins;
+  border: 1px solid #1000ff;
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(to right, #1a129f, #6156f9);
+  border-radius: 100px;
+  position: absolute;
+  right: 56px;
+  bottom: 27.3px; }
+
+.sonbutton div {
+  margin-top: 6px; }
+
+.bton {
+  width: 169px;
+  height: 51px;
+  background-image: linear-gradient(to right, #1a129f, #6156f9);
+  border-radius: 100px;
+  margin: auto;
+  margin-top: 33px;
+  text-align: center;
+  color: white;
+  /*position: absolute;*/
+  /*left: 50%;*/
+  /*transform: translateX(-50%);*/
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Poppins-Light, Poppins;
+  border: 1px solid #1000ff; }
+
+.bton1 {
+  width: 169px;
+  height: 51px;
+  background-color: white;
+  border-radius: 100px;
+  margin: auto;
+  margin-top: 33px;
+  text-align: center;
+  border: 1px solid #1000ff;
+  /*position: absolute;*/
+  /*left: 50%;*/
+  /*transform: translateX(-50%);*/
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Poppins-Light, Poppins;
+  color: #42495b; }
+
+.pricing {
+  font-family: SegoeUI, Segoe UI;
+  font-size: 20px;
+  color: #7e76f9;
+  margin: auto;
+  text-align: center;
+  height: 27px;
+  /*background-color: red;*/
+  /*margin-top: 38px;*/ }
+
+.our {
+  color: #42495b;
+  font-family: Poppins-Light, Poppins;
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 10px;
+  height: 71px; }
+
+.footer {
+  height: 1103px;
+  /*background-color: red;*/ }
+
+.ayaq {
+  width: 627px;
+  height: 178px;
+  margin: auto;
+  margin-top: 136px; }
+
+.news {
+  font-size: 20px;
+  color: #7e76f9;
+  font-family: SegoeUI, Segoe UI;
+  text-align: center;
+  height: 27px; }
+
+.do {
+  /*margin: auto;*/
+  text-align: center;
+  color: #42495b;
+  font-size: 32px;
+  font-family: Poppins-Regular, Poppins;
+  margin-top: 10px; }
+
+.do2 {
+  font-weight: 600; }
+
+.dropm {
+  width: 430px;
+  height: 52px;
+  border: none;
+  background-color: #f6f7fb;
+  border-radius: 5%;
+  display: inline-block;
+  float: left; }
+
+.dropm, .value {
+  font-size: 12px;
+  color: rgba(153, 153, 153, 0.6);
+  font-family: Poppins-Regular, Poppins; }
+
+.subscribe {
+  display: inline-block;
+  float: left;
+  margin-top: 0px;
+  margin-left: 26px; }
+
+.last {
+  margin: auto;
+  margin-top: 37px; }
+
+.bio1, .bio3 {
+  height: 616.39px;
+  width: 602.64px;
+  display: inline-block;
+  float: left; }
+
+.bio2 {
+  height: 616.39px;
+  width: 84.26px;
+  display: inline-block;
+  float: left; }
+
+.topbio {
+  margin: auto;
+  margin-bottom: 134.52px;
+  margin-top: 88.72px;
+  height: 616.39px;
+  width: 1289.54px; }
+
+.biography {
+  height: 27px;
+  font-size: 20px;
+  color: #7e76f9;
+  font-family: SegoeUI, Segoe UI;
+  margin-top: 74.91px; }
+
+.who {
+  height: 71px;
+  font-size: 50px;
+  font-family: Poppins-SemiBold, Poppins;
+  font-weight: 600;
+  color: #42495b;
+  margin-top: 7px; }
+
+.lastlorem {
+  height: 240px;
+  font-size: 16px;
+  font-family: Poppins-SemiBold, Poppins;
+  color: #7a839e;
+  font-weight: 300;
+  margin-top: 14px; }
+
+.weare {
+  margin-left: 0px;
+  margin-top: 32px; }
+
+.topfooter {
+  width: 100%;
+  background-color: #1a129f;
+  margin-top: 250px; }
+
+.lowfooter {
+  height: 426px;
+  width: 1282px;
+  margin: auto;
+  position: relative; }
+
+.logo {
+  font-family: SegoeUI, Segoe UI;
+  font-size: 50px;
+  color: #fff;
+  width: 111px;
+  height: 67px;
+  position: absolute;
+  left: 115.32px;
+  bottom: 249px; }
+
+.stay {
+  font-weight: 500;
+  font-size: 31px;
+  font-family: Poppins-Medium, Poppins;
+  color: white;
+  position: absolute;
+  bottom: 180.4px;
+  left: 59.32px; }
+
+.facelast {
+  position: absolute;
+  bottom: 139.4px;
+  left: 71.62px; }
+
+.glast {
+  position: absolute;
+  bottom: 139.6px;
+  left: 120.12px; }
+
+.twitlast {
+  position: absolute;
+  bottom: 138.6px;
+  left: 180.42px; }
+
+.instalast {
+  position: absolute;
+  bottom: 139.6px;
+  left: 235.32px; }
+
+.logo2 {
+  position: absolute;
+  left: 431.32px;
+  /*bottom: 88px;*/ }
+
+.qlinks {
+  font-family: Poppins-Medium, Poppins;
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+  width: 112px;
+  height: 28px;
+  bottom: 285px;
+  left: 431.32px;
+  position: absolute; }
+
+.lastlinks {
+  font-size: 16px;
+  font-family: Poppins-Medium, Poppins;
+  color: white;
+  bottom: 88px;
+  position: absolute;
+  left: 431.32px; }
+
+.lastlinks span {
+  position: absolute; }
+
+.hours {
+  font-family: Poppins-Medium, Poppins;
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+  position: absolute;
+  bottom: 285px;
+  right: 533.32px; }
+
+.monday {
+  height: 167px;
+  width: 198px;
+  color: white;
+  font-family: Poppins-Medium, Poppins;
+  font-size: 16px;
+  position: absolute;
+  bottom: 88px;
+  right: 394.32px;
+  /*background: red;*/ }
+
+.monday span {
+  position: absolute; }
+
+.monday span div {
+  position: absolute;
+  right: 0%;
+  /*text-align: right;*/ }
+
+.contact {
+  font-family: Poppins-Medium, Poppins;
+  font-weight: 500;
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  width: 82px;
+  height: 28px;
+  position: absolute;
+  bottom: 285px;
+  right: 212.32px; }
+
+.info {
+  width: 128px;
+  font-size: 16px;
+  font-family: Poppins-Medium, Poppins;
+  color: white;
+  position: absolute;
+  bottom: 196px;
+  right: 143.32px; }
+
+.info span {
+  position: absolute; }
+
+.nyc {
+  font-size: 16px;
+  font-family: Poppins-Medium, Poppins;
+  color: white;
+  position: absolute;
+  bottom: 143px;
+  right: 171.32px; }
+
+.phone {
+  position: absolute;
+  bottom: 231.1px;
+  right: 278.42px; }
+
+.envelope {
+  position: absolute;
+  bottom: 199.6px;
+  right: 278.42px; }
+
+.maps {
+  position: absolute;
+  bottom: 142.7px;
+  right: 281.22px; }
+
+.last1 {
+  transform: rotate(-90deg);
+  position: absolute;
+  left: -1283.46px;
+  top: 3290.66; }
+
+.ucnoqte {
+  position: absolute;
+  bottom: -120px; }
